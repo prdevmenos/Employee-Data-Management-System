@@ -19,13 +19,18 @@ const EditEmp = () => {
   const data=useParams();
   const navigate=useNavigate();
 
-  useEffect(()=>{
-    empService.getEmpById(data.id).then((response)=>{
-      setEmp(response.data);
-    }).catch((error)=>{
-      console.log(error);
-    });
-  },[]);
+useEffect(() => {
+  if (data?.id) {
+    empService.getEmpById(data.id)
+      .then((response) => {
+        setEmp(response.data);
+      })
+      .catch((error) => {
+        console.log(error);
+      });
+  }
+}, [data.id]);
+
 
   const handleChange = (e) => {
     const value = e.target.value;
