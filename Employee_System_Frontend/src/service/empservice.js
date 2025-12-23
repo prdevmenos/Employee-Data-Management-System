@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const BASE_API_URL = "http://localhost:8080/api/v1";
+const BASE_API_URL = "https://employee-data-management-system-dpq8.onrender.com";
 
 class EmpService {
 
