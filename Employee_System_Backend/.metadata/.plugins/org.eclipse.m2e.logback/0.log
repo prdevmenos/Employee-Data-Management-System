@@ -1,0 +1,10 @@
+2025-12-23 11:32:34,014 [Worker-5: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is not available. Remote download required.
+2025-12-23 11:33:30,185 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2025-12-23 11:41:42,073 [Worker-7: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.EmployeeSystem:Employee_System_Backend:0.0.1-SNAPSHOT @ E:\projects\Employee_System_Backend\Employee_System_Backend\pom.xml.
+2025-12-23 11:41:48,574 [Worker-7: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-12-23 11:41:48,608 [Worker-7: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-12-23 11:41:48,612 [Worker-7: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\projects\Employee_System_Backend\Employee_System_Backend\src\test\resources
+2025-12-23 11:41:49,605 [Worker-8: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.EmployeeSystem:Employee_System_Backend:0.0.1-SNAPSHOT @ E:\projects\Employee_System_Backend\Employee_System_Backend\pom.xml.
+2025-12-23 11:41:51,791 [Worker-5: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-12-23 11:41:51,815 [Worker-5: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-12-23 11:41:51,823 [Worker-5: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\projects\Employee_System_Backend\Employee_System_Backend\src\test\resources
